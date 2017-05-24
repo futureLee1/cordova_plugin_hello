@@ -9,16 +9,16 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
-  <asset src="www/hello.js" target="js/hello.js"/>
+  <asset src="www/testPlugin.js" target="js/testPlugin.js"/>
 
-  <js-module src="www/hello.js" name="hello">
-    <clobbers target="hello" />
+  <js-module src="www/testPlugin.js" name="TestPlugin">
+    <clobbers target="testPlugin" />
   </js-module>
 
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="Hello">
+      <feature name="TestPlugin">
         <param name="android-package" value="com.example.hello.TestPlugin"/>
       </feature>
     </config-file>
