@@ -11,7 +11,7 @@
 
   <asset src="www/testPlugin.js" target="js/testPlugin.js"/>
 
-  <js-module src="www/testPlugin.js" name="TestPlugin">
+  <js-module src="www/testPlugin.js" name="testPlugin">
     <clobbers target="testPlugin" />
   </js-module>
 
@@ -23,7 +23,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/TestPlugin.java" target-dir="src/com/example/hello/TestPlugin"/>
+    <source-file src="src/android/TestPlugin.java" target-dir="src/com/example/hello/"/>
   </platform>
 
 </plugin>
